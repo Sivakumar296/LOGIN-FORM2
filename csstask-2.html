@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body{
+            background-image:url(fog-7496901.jpg);
+            background-position:fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .form-box{
+            border-radius: 5px;
+            width: 350px;
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: black;
+        }
+        form{
+            
+            padding: 30px;
+        }
+        form [type=submit]{
+            background-color: red;
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            border-radius:40px;
+        }
+        form [type=text]{
+            
+            width: 100%;
+            padding-top: 10px;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            background-color:black;
+            outline: none;
+            color: white;
+            font-size: 16px;
+        }
+        form [type=password]{
+            width: 100%;
+            padding-top: 10px;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            background-color:black;
+            outline: none;
+            color: white;
+            font-size: 16px;
+        }
+        a{
+            color: rgb(95, 98, 98);
+            
+        }
+    </style>
+    <div class="form-box">
+        <div style="text-align: center;">
+            <div><i class="material-icons" style="font-size:100px;background-color:red;border-radius: 50px;margin-top: -50px;">person</i></div>
+            <h1>Login Here</h1>
+        </div>
+        <form action="">
+            <div>
+                <label for="">Username</label><br>
+                <input type="text">
+            </div>
+            <div style="margin-top: 10px;">
+                <label for="">Password</label><br>
+                <input type="password">
+            </div>
+            <input type="submit" value="Login">
+            <div style="margin-top: 30px;">
+                <a href="">Lost your password ?</a> <br>
+            <a href="">Don't have an account ?</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
